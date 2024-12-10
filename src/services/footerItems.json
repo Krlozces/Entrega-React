@@ -1,0 +1,37 @@
+{
+    "data" :[
+        {
+            "title": "Información",
+            "firstTitle": "¿Quiénes somos?",
+            "secondTitle": "Nuestros servicios",
+            "thirdTitle": "Nuestros productos",
+            "fourthTitle": "Contacto"
+        },
+        {
+            "title": "Redes sociales",
+            "firstTitle": "Facebook",
+            "secondTitle": "Instagram",
+            "thirdTitle": "Twitter",
+            "fourthTitle": "LinkedIn"
+        },
+        {
+            "title": "Legal",
+            "firstTitle": "Términos y condiciones",
+            "secondTitle": "Política de privacidad",
+            "thirdTitle": "Política de cookies",
+            "fourthTitle": "Aviso legal"
+        },
+        {
+            "title": "Ayuda",
+            "firstTitle": "Preguntas frecuentes",
+            "secondTitle": "Soporte",
+            "thirdTitle": "Guía de tallas",
+            "fourthTitle": "Envíos y devoluciones"
+        },
+        {
+            "title": "Newsletter",
+            "firstTitle": "Suscríbete a nuestra newsletter",
+            "secondTitle": "Recibe ofertas exclusivas y novedades"
+        }
+    ]
+}

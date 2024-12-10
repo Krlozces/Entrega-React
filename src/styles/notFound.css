@@ -1,0 +1,76 @@
+/* Fondo de la página */
+.not-found {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    color: #fff;
+    text-align: center;
+}
+
+/* Fondo animado */
+.animated-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle at 50% 50%, #007bff, #001f3f);
+    overflow: hidden;
+    z-index: 0;
+}
+
+.animated-background::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.3) 10%, transparent 70%);
+    animation: rotate 10s linear infinite;
+}
+
+/* Rotación del fondo */
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* Contenido en el frente */
+.content-not-found {
+    position: relative;
+    z-index: 1;
+}
+
+.content-not-found h1 {
+    font-size: 6rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+.content-not-found p {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+}
+
+.btn-home {
+    text-decoration: none;
+    padding: 0.75rem 1.5rem;
+    background-color: #ff5722;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.btn-home:hover {
+    background-color: #e64a19;
+}
