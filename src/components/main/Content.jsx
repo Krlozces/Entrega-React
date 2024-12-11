@@ -75,7 +75,7 @@ function Content() {
 
     return (
         <>
-            {/* <NavBar onSearch={setSearchTerm} /> Pasa la función de búsqueda a NavBar - coso duplicado - Sirve para filtrar los productos, pero ns como quitarle el duplicado */}
+            <NavBar onSearch={setSearchTerm} />
             <div className="content">
                 {filteredProducts.map((product) => (
                     <div key={product.id} className="product">

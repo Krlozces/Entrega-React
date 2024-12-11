@@ -6,10 +6,8 @@ import Content from '../components/main/Content'
 function Home() {
     return (
         <>
-            <NavBar />
             <Content />
             <Footer />
-            
         </>
     )
 }
